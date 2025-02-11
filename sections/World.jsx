@@ -14,11 +14,11 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Rompe Fronteras" textStyles="text-center" />
       <TitleText
         title={(
           <>
-            Track friends around you and invite them to play together in the same world
+            Recibe y envía divisas de forma rápida y segura
           </>
         )}
         textStyles="text-center"
@@ -31,20 +31,20 @@ const World = () => (
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
 
         {/* Here We are displaying chararcters on the map */}
-        <div className="absolute top-[32%] left-[62%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute top-[32%] left-[62%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#f8f438]">
           <img src="/people-02.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="absolute sm:top-10 bottom-40 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute sm:top-10 bottom-40 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#f8f438]">
           <img src="/people-03.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="hidden lg:block absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="hidden lg:block absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#f8f438]">
           <img src="/people-04.png" alt="people" className="w-full h-full" />
         </div>
 
-        <div className="hidden lg:block absolute bottom-[20%] left-[15%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="hidden lg:block absolute bottom-[20%] left-[15%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#f8f438]">
           <img src="/people-05.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="absolute top-0 right-[22%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute top-0 right-[22%] w-[70px] h-[70px] p-[6px] rounded-full   bg-[#f8f438]">
           <img src="/people-06.png" alt="people" className="w-full h-full" />
         </div>
         {/* Character on Map ends */}

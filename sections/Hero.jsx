@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { ArrowRightLeft } from 'lucide-react';
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
@@ -18,15 +19,15 @@ const Hero = () => (
           variants={textVariant(1.1)}
           className={styles.heroHeading}
         >
-          Metadroid
+          Tu divisas en
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row items-center justify-center"
         >
-          <h1 className={styles.heroHeading}> Ma</h1>
-          <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}> Ness</h1>
+          <h1 className={styles.heroHeading}> Bs</h1>
+          <ArrowRightLeft className="w-[60px] h-[38px] sm:w-[80px] sm:h-[48px] md:w-[212px] md:h-[90px] text-white mx-[12px] sm:mx-4" />
+          <h1 className={styles.heroHeading}> XPress</h1>
         </motion.div>
       </div>
 
