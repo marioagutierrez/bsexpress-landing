@@ -4,8 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { StartSteps, TitleText, TypingText } from '../components';
-
-import { startingFeatures } from '../constants';
+import { startingFeatures, sectionTitles } from '../constants';
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -20,20 +19,24 @@ const GetStarted = () => (
         variants={planetVariants('left')}
         className={`${styles.flexCenter} flex-1`}
       >
-        <img src="/get-started.png" alt="Get-Started" className="w-[90%] h-[90%] object-content" />
+        <img 
+          src="/favicon-bs.png" 
+          alt="Cambio de divisas" 
+          className="w-[90%] h-[90%] object-content" 
+        />
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How MetaDroid Works " />
-        <TitleText title={<> Get Started with just a few clicks </>} />
+        <TypingText title={sectionTitles.getStarted.title} />
+        <TitleText title={sectionTitles.getStarted.subtitle} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
-          {startingFeatures.map((features, index) => (
+          {startingFeatures.map((feature, index) => (
             <StartSteps
-              key={features}
+              key={feature}
               number={index + 1}
-              text={features}
+              text={feature}
             />
           ))}
         </div>

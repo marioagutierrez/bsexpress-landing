@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowRightLeft } from 'lucide-react';
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+import { sectionTitles } from '../constants';
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
@@ -19,15 +20,15 @@ const Hero = () => (
           variants={textVariant(1.1)}
           className={styles.heroHeading}
         >
-          Tu divisas en
+          {sectionTitles.hero.title}
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row items-center justify-center"
         >
-          <h1 className={styles.heroHeading}> Bs</h1>
-          <ArrowRightLeft className="w-[60px] h-[38px] sm:w-[80px] sm:h-[48px] md:w-[212px] md:h-[90px] text-white mx-[12px] sm:mx-4" />
-          <h1 className={styles.heroHeading}> XPress</h1>
+          <h1 className={styles.heroHeading}>Bs</h1>
+          <ArrowRightLeft className="w-[60px] h-[38px] sm:w-[80px] sm:h-[48px] md:w-[212px] md:h-[90px] text-white mx-[8px] sm:mx-2" />
+          <h1 className={styles.heroHeading}>XPress</h1>
         </motion.div>
       </div>
 
@@ -37,9 +38,9 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] sm:-top-[20px] -top-[10px]" />
         <img
-          src="/cover.png"
-          alt="cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+          src="/banner.jpg"
+          alt=""
+          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative t-0"
         />
 
         <a href="#explore">

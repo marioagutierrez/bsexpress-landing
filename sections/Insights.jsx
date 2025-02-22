@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { insights } from '../constants';
+import { insights, sectionTitles } from '../constants';
 import { InsightCard, TitleText, TypingText } from '../components';
 import { staggerContainer } from '../utils/motion';
 
@@ -16,8 +16,8 @@ const Insights = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| Insight" textStyles="text-center" />
-      <TitleText title="Insights about metaverse" textStyles="text-center" />
+      <TypingText title={sectionTitles.insights.title} textStyles="text-center" />
+      <TitleText title={sectionTitles.insights.subtitle} textStyles="text-center" />
 
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((insight, i) => (
