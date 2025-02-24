@@ -1,17 +1,17 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/home.svg',
+    imgUrl: '/home.png',
     title: 'Una interfaz sencilla de usar',
   },
   {
     id: 'world-2',
-    imgUrl: '/beneficiario.svg',
+    imgUrl: '/beneficiario.png',
     title: 'Cambio inmediato de divisas',
   },
   {
     id: 'world-3',
-    imgUrl: '/perfil.svg',
+    imgUrl: '/perfil.png',
     title: 'Estadísticas y datos',
   },
   {
