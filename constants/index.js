@@ -78,22 +78,22 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: 'https://twitter.com/BsXpress',
+    link: 'https://twitter.com/bsexpress',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/company/bsxpress',
+    link: 'https://www.linkedin.com/company/bsexpress',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/bsxpress',
+    link: 'https://www.instagram.com/bsexpress',
   },
 ];
 
 export const feedback = {
-  content: 'BsXpress ha revolucionado la forma en que realizamos cambios de divisas. Su plataforma es rápida, segura y siempre ofrece las mejores tasas del mercado.',
+  content: 'BsExpress ha revolucionado la forma en que realizamos cambios de divisas. Su plataforma es rápida, segura y siempre ofrece las mejores tasas del mercado.',
   name: 'Carlos Rodríguez',
   title: 'Cliente Verificado',
   img: '/people-01.png',
@@ -102,10 +102,10 @@ export const feedback = {
 export const sectionTitles = {
   hero: {
     title: 'Tu divisas en',
-    subtitle: 'Bs XPress',
+    subtitle: 'Bs ExPress',
   },
   about: {
-    title: '| Sobre BsXpress',
+    title: '| Sobre BsExpress',
     description: 'Conectamos 7 países y sus monedas directamente a Bolívares venezolanos con las mejores tasas del mercado.',
   },
   getStarted: {

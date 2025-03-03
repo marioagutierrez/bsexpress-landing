@@ -22,7 +22,7 @@ const Explore = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| Explora BsXpress" textStyles="text-center" />
-        <TitleText title={<>Elige la moneda que deseas <br className="md:block hidden " />cambiar</>} textStyles="text-center" />
+        <TitleText title={<>Cambia tus divisas en solo unos  <br className="md:block hidden " />clicks</>} textStyles="text-center" />
 
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (

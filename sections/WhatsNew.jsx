@@ -42,7 +42,7 @@ const WhatsNew = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TypingText title="| Ventajas BsXpress" />
+        <TypingText title="| Ventajas BsExpress" />
         <TitleText title={<>¿Por qué elegirnos?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {features.map((feature) => (

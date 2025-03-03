@@ -28,7 +28,7 @@ const Hero = () => (
         >
           <h1 className={styles.heroHeading}>Bs</h1>
           <ArrowRightLeft className="w-[60px] h-[38px] sm:w-[80px] sm:h-[48px] md:w-[212px] md:h-[90px] text-white mx-[8px] sm:mx-2" />
-          <h1 className={styles.heroHeading}>XPress</h1>
+          <h1 className={styles.heroHeading}>Express</h1>
         </motion.div>
       </div>
 
