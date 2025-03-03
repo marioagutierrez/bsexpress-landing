@@ -102,7 +102,7 @@ export const feedback = {
 export const sectionTitles = {
   hero: {
     title: 'Tu divisas en',
-    subtitle: 'Bs ExPress',
+    subtitle: 'Bs Express',
   },
   about: {
     title: '| Sobre BsExpress',
@@ -113,7 +113,7 @@ export const sectionTitles = {
     subtitle: 'Cambia tus divisas en 4 pasos',
   },
   whatsNew: {
-    title: '| Ventajas BsXpress',
+    title: '| Ventajas BsExpress',
     subtitle: '¿Por qué elegirnos?',
   },
   insights: {

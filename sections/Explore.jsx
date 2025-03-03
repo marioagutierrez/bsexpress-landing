@@ -21,7 +21,7 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Explora BsXpress" textStyles="text-center" />
+        <TypingText title="| Explora BsExpress" textStyles="text-center" />
         <TitleText title={<>Cambia tus divisas en solo unos  <br className="md:block hidden " />clicks</>} textStyles="text-center" />
 
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
